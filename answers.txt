@@ -1,0 +1,41 @@
+NAME:Wesam Sanbo
+
+ID : 2230001052
+
+
+=========================== TASK 1 ================================
+
+101 ?- consult('C:/Users/wesam/Downloads/college/Artificial Intelligence Princi-FS02/lab9/boolean.pl').
+true.
+
+102 ?- boolean(true, true, R).
+R = true.
+
+103 ?- boolean(true, false, R).
+R = false.
+
+104 ?- boolean(false, true, R).
+R = false.
+
+105 ?- boolean(false, false, R).
+R = true.
+
+
+================================TASK 2 AND 3================================ 
+
+101 ?- consult('C:/Users/wesam/Downloads/college/Artificial Intelligence Princi-FS02/lab9/tasks.pl').
+true.
+
+102 ?- sumlist([1,2,5,7], Sum).
+Sum = 15.
+
+103 ?- sumlist([], Sum).
+Sum = 0.
+
+104 ?- total_average.
+Enter first number: 10.
+Enter second number: |: 20.
+Enter third number: |: 30.
+Total = 60
+Average = 20
+true.
